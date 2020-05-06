@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023513957F41670DBAB857E1335410DF /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC18B46BBAD288685D37201F5FFE360 /* BRResultModel.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC4D7BDEBE13A4724C9BBDB664B3107 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E022AFD319BF61051CEBD0FADE6BB2DC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AA5EF0F0E695690C180C6FC67016E0 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F53C8937CB99AA8CDE7B2D2849995 /* BRAddressPickerView.m */; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 311FA19239C1640F365FA7D01E3E996D /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE44B882FCCF8DD0C03A390B9E266CA /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D6D1D202147D9B4B367AB20B41D411 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA75213960573AE0DDD62CB65F8FCAB /* NSDate+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E0E058B1C586E071384974E2FEB5E3 /* NSDate+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F48BB2A2DCD4D2A2358B3C69112CFE /* BRDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 972A323B0CA50432575F92CA028B890A /* BRDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AF10F15403DCE7971A746E513183C /* Masonry-dummy.m */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 381129264DE06E6B17CAFA650F15E465 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D828AAA0D33FABEA033EB9914828FBC3 /* MASViewAttribute.m */; };
+		3108CEA9073153E33051B4E2778A0EAB /* BRResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB590597B9C2B8977EB242A5F893D06F /* BRResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9579A67B0165627DDBA39A639DC46D8A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B0BFAF4609966D7ACEE91C68AAFFCA3 /* BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77801FD7ED5469F2349C381EAACB7BD0 /* BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 642BB26EC18DA0E80EEEE81E39B821D4 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A7460F1259EF200ACD23559CE953EA2 /* BRAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC435CC693CC7C6030287B0CDC3D30E /* BRAddressModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD75AC8C30EE080888DAA3DC7CFBE00 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D0E4A39B85CBF24691E5D9B2B9DC177 /* Pods-BRPickerViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAD1C5965E3343497A345BCAE4814F /* Pods-BRPickerViewDemo-dummy.m */; };
+		6347A494D00D1062162CC1C26232FC57 /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B84E076130AE1EED397F5EFB3485B870 /* BRPickerView.bundle */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E636472472D358A96D44F85870C782C8 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A47256BF1738847CDEB86A86796CAEEB /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DF85A7691D58A82B46BD1DE0CB81E7 /* MASCompositeConstraint.m */; };
+		7F9EA75D5AF0E0AC2AE4EAC99F0F67CD /* BRPickerViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = C715B736811106600CF3624BC9BB476A /* BRPickerViewMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE82A311AA887B1BBF36B135FBFC33 /* MASLayoutConstraint.m */; };
+		8AC6EB00936C384D1B349D49282014A6 /* BRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3C612B86E83575DDDCD03FE9025EB /* BRPickerView-dummy.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA23E374952D8983DCBE31DAD066333 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EF173B0392DC7D97ABC8789555921F25 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D602B5F6D84C8CF2FA9FE0C7A0E38A /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9092F9EF7F03C83AEB99578A30D16341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 83945DD6816BB0C50422CACC7D665C60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94ECFB0CFC1271367D385930EE8360A7 /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F24BA811AC17D33E488B7F93BD4424 /* BRPickerStyle.m */; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBBB7AAF8AB66BCA2179203C2327D1E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCD2184EF56C66AB85422CB533CE36B /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B071873472D03FCA8C0912401E547159 /* NSDate+BRPickerView.m */; };
+		A35537A553D0943AD6AF61EC8D90D3E4 /* BRPickerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 616609B4F7B6B7F2E7587B5A652E3B1D /* BRPickerStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46092F8701CBD96A792CE1613A567CB8 /* View+MASAdditions.m */; };
+		A49A86D0A67372C92DC79034DE3DCC02 /* NSBundle+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC65EBBA95CF1DD66CD48C9AAA4AB29E /* NSBundle+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B654EBB0BB811C4E503DDDB1619C31 /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A8104EA6A32070CD2129F94B65414 /* NSBundle+BRPickerView.m */; };
+		B5061DDE80B7CAC1831E8065730D03D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DB03CB8FCBAA484D1D4A3C4351BF5 /* MASViewConstraint.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6468FD3FD1B6E7556C0E3EFE6C2E71DC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C09F46CEAFB528A9030811AD6825F560 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A4E7937C23BEB784C1E79311F7A00 /* BRStringPickerView.m */; };
+		C631F1EF6FBA8D266AEE5EFD49A1E942 /* BRBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A3B8350C6E6A8B4BE271411D32E270 /* BRBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		CEF7D3BEF31709B286232460D517F9C2 /* Pods-BRPickerViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8CE64C7EA8E592DED758CB6E4FC7A7 /* Pods-BRPickerViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E4C65B3F8BAE275587138FAAFE5FBE /* BRAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 180D8ED788A325E2B9B656ED4F480243 /* BRAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B1D2C23A0F79B746295617C87797E1 /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9408CDA134C2CBEDBFAB6404E0A6810 /* BRDatePickerView.m */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC900846204D83887114EA13423B2760 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E817F9B996DD5ABA159A9F9AB4F6E3B2 /* BRPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7280857A5056ED8FA0ACE5CEF329674B /* BRPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6C4DD9FDF66481E85E3B28EE60F22 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDDCF584946FA5DB4B27A6AEB259A11 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6ABF84DA7F8649565A5095B3AE8C18A /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537B34CFBAA08AE6D080BA827A23E59 /* BRAddressModel.m */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C4408F90E8594B803E790C81A0444599 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCE510CB454F42F40C02C3F9901A458 /* BRStringPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6049EE00832C56FB3A5C9D79DD034BE /* BRStringPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF5244CD76C0E3E0F5F89A7BC798EF9 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575059B4DB8360A928A53D8FFE2F476 /* BRBaseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C692F9A778555DA975FB0EE4BAE888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
+			remoteInfo = BRPickerView;
+		};
+		CD5E24570354FBDEAB66C7335A42CF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF85A7691D58A82B46BD1DE0CB81E7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		049F53C8937CB99AA8CDE7B2D2849995 /* BRAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressPickerView.m; path = BRPickerView/AddressPickerView/BRAddressPickerView.m; sourceTree = "<group>"; };
+		07D602B5F6D84C8CF2FA9FE0C7A0E38A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0BE3C612B86E83575DDDCD03FE9025EB /* BRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRPickerView-dummy.m"; sourceTree = "<group>"; };
+		0DBBB7AAF8AB66BCA2179203C2327D1E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		1451020FD39EDFD8D1832943FF76F2C6 /* Pods_BRPickerViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRPickerViewDemo.framework; path = "Pods-BRPickerViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		145CA07A7DCF5FA689ABE4CB23B3F11A /* BRPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		14C3FB12AAF2493FED9597F5563CBB39 /* Pods-BRPickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRPickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1537B34CFBAA08AE6D080BA827A23E59 /* BRAddressModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressModel.m; path = BRPickerView/AddressPickerView/BRAddressModel.m; sourceTree = "<group>"; };
+		17244FDA163876399DDD5D0E951BF495 /* Pods-BRPickerViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BRPickerViewDemo.modulemap"; sourceTree = "<group>"; };
+		180D8ED788A325E2B9B656ED4F480243 /* BRAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressPickerView.h; path = BRPickerView/AddressPickerView/BRAddressPickerView.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A97A6877F4BB99B94A2AF7E09A02F24 /* Pods-BRPickerViewDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRPickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		2AEAD1C5965E3343497A345BCAE4814F /* Pods-BRPickerViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRPickerViewDemo-dummy.m"; sourceTree = "<group>"; };
+		2CD75AC8C30EE080888DAA3DC7CFBE00 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		311FA19239C1640F365FA7D01E3E996D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		381129264DE06E6B17CAFA650F15E465 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		3BC4D7BDEBE13A4724C9BBDB664B3107 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3E197EC26C5152D5F179DC863D785081 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		424062A61039F793EAAF32FB70862669 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4575059B4DB8360A928A53D8FFE2F476 /* BRBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRBaseView.m; path = BRPickerView/Base/BRBaseView.m; sourceTree = "<group>"; };
+		46092F8701CBD96A792CE1613A567CB8 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		47400C72C74223B34BA95DCEC9806D44 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		4BDDCF584946FA5DB4B27A6AEB259A11 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		4CA23E374952D8983DCBE31DAD066333 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		509CBC99FECB00B127FB6DA8ADDBF89A /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		5251EBD68735453BC90B368737F600A9 /* Pods-BRPickerViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRPickerViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5AE44B882FCCF8DD0C03A390B9E266CA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRPickerView.framework; path = BRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA6C4DD9FDF66481E85E3B28EE60F22 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		5E6E7424D1DCB872ACEC084EE8C01F50 /* Pods-BRPickerViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRPickerViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60CE39B2121060FAA2F56214B133F073 /* BRPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRPickerView.modulemap; sourceTree = "<group>"; };
+		616609B4F7B6B7F2E7587B5A652E3B1D /* BRPickerStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerStyle.h; path = BRPickerView/Base/BRPickerStyle.h; sourceTree = "<group>"; };
+		642BB26EC18DA0E80EEEE81E39B821D4 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		6468FD3FD1B6E7556C0E3EFE6C2E71DC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6DC18B46BBAD288685D37201F5FFE360 /* BRResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRResultModel.m; path = BRPickerView/StringPickerView/BRResultModel.m; sourceTree = "<group>"; };
+		7048D977E8F932DA4422EF0E25831760 /* Pods-BRPickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRPickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7280857A5056ED8FA0ACE5CEF329674B /* BRPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-umbrella.h"; sourceTree = "<group>"; };
+		73A3B8350C6E6A8B4BE271411D32E270 /* BRBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRBaseView.h; path = BRPickerView/Base/BRBaseView.h; sourceTree = "<group>"; };
+		77801FD7ED5469F2349C381EAACB7BD0 /* BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerView.h; path = BRPickerView/BRPickerView.h; sourceTree = "<group>"; };
+		78D6D1D202147D9B4B367AB20B41D411 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7CC623AFE435826FF41E3710856A3361 /* Pods-BRPickerViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRPickerViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F0A8104EA6A32070CD2129F94B65414 /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BRPickerView.m"; path = "BRPickerView/Base/NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
+		7F2A4E7937C23BEB784C1E79311F7A00 /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
+		80F24BA811AC17D33E488B7F93BD4424 /* BRPickerStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRPickerStyle.m; path = BRPickerView/Base/BRPickerStyle.m; sourceTree = "<group>"; };
+		83945DD6816BB0C50422CACC7D665C60 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		8E4F2FD4FC42620B1B5ED3C83E930D12 /* BRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-prefix.pch"; sourceTree = "<group>"; };
+		928DB03CB8FCBAA484D1D4A3C4351BF5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		9579A67B0165627DDBA39A639DC46D8A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		972A323B0CA50432575F92CA028B890A /* BRDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRDatePickerView.h; path = BRPickerView/DatePickerView/BRDatePickerView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC435CC693CC7C6030287B0CDC3D30E /* BRAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressModel.h; path = BRPickerView/AddressPickerView/BRAddressModel.h; sourceTree = "<group>"; };
+		A47256BF1738847CDEB86A86796CAEEB /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		AB590597B9C2B8977EB242A5F893D06F /* BRResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRResultModel.h; path = BRPickerView/StringPickerView/BRResultModel.h; sourceTree = "<group>"; };
+		ACB960E31F0A7EED1F39251F38B1C05F /* BRPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BRPickerView-Info.plist"; sourceTree = "<group>"; };
+		AF8CE64C7EA8E592DED758CB6E4FC7A7 /* Pods-BRPickerViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRPickerViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		B071873472D03FCA8C0912401E547159 /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+BRPickerView.m"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.m"; sourceTree = "<group>"; };
+		B44F5F774C1E636770251423BB6052F2 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B84E076130AE1EED397F5EFB3485B870 /* BRPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BRPickerView.bundle; path = BRPickerView/Base/BRPickerView.bundle; sourceTree = "<group>"; };
+		C03AF10F15403DCE7971A746E513183C /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		C4408F90E8594B803E790C81A0444599 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C715B736811106600CF3624BC9BB476A /* BRPickerViewMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerViewMacro.h; path = BRPickerView/Base/BRPickerViewMacro.h; sourceTree = "<group>"; };
+		C8E0E058B1C586E071384974E2FEB5E3 /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BRPickerView.h"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.h"; sourceTree = "<group>"; };
+		CC65EBBA95CF1DD66CD48C9AAA4AB29E /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BRPickerView.h"; path = "BRPickerView/Base/NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
+		CC900846204D83887114EA13423B2760 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D6049EE00832C56FB3A5C9D79DD034BE /* BRStringPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRStringPickerView.h; path = BRPickerView/StringPickerView/BRStringPickerView.h; sourceTree = "<group>"; };
+		D828AAA0D33FABEA033EB9914828FBC3 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		D9A1C6012E8DAD84EF077037380F39DC /* BRPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.release.xcconfig; sourceTree = "<group>"; };
+		DEEE82A311AA887B1BBF36B135FBFC33 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E022AFD319BF61051CEBD0FADE6BB2DC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E636472472D358A96D44F85870C782C8 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		EF173B0392DC7D97ABC8789555921F25 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F9408CDA134C2CBEDBFAB6404E0A6810 /* BRDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRDatePickerView.m; path = BRPickerView/DatePickerView/BRDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB33FC1BC44BCD94A54445E36C6DC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5061DDE80B7CAC1831E8065730D03D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E642024F3B176ED5BB81181974693A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9092F9EF7F03C83AEB99578A30D16341 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087C9153CF9165EFE33E98064027817F /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				972A323B0CA50432575F92CA028B890A /* BRDatePickerView.h */,
+				F9408CDA134C2CBEDBFAB6404E0A6810 /* BRDatePickerView.m */,
+				C8E0E058B1C586E071384974E2FEB5E3 /* NSDate+BRPickerView.h */,
+				B071873472D03FCA8C0912401E547159 /* NSDate+BRPickerView.m */,
+			);
+			name = DatePickerView;
+			sourceTree = "<group>";
+		};
+		0A1EE2BE0A8B11C4EA40D593BB14D376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B84E076130AE1EED397F5EFB3485B870 /* BRPickerView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B9C7CF4DA95C4BC73B153A98FD9DFF7 /* Pods-BRPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				17244FDA163876399DDD5D0E951BF495 /* Pods-BRPickerViewDemo.modulemap */,
+				5E6E7424D1DCB872ACEC084EE8C01F50 /* Pods-BRPickerViewDemo-acknowledgements.markdown */,
+				7CC623AFE435826FF41E3710856A3361 /* Pods-BRPickerViewDemo-acknowledgements.plist */,
+				2AEAD1C5965E3343497A345BCAE4814F /* Pods-BRPickerViewDemo-dummy.m */,
+				5251EBD68735453BC90B368737F600A9 /* Pods-BRPickerViewDemo-frameworks.sh */,
+				2A97A6877F4BB99B94A2AF7E09A02F24 /* Pods-BRPickerViewDemo-Info.plist */,
+				AF8CE64C7EA8E592DED758CB6E4FC7A7 /* Pods-BRPickerViewDemo-umbrella.h */,
+				14C3FB12AAF2493FED9597F5563CBB39 /* Pods-BRPickerViewDemo.debug.xcconfig */,
+				7048D977E8F932DA4422EF0E25831760 /* Pods-BRPickerViewDemo.release.xcconfig */,
+			);
+			name = "Pods-BRPickerViewDemo";
+			path = "Target Support Files/Pods-BRPickerViewDemo";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		195DADEC175093DBBBEA5BF1D20D2542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7162C055088096C33CA964930F97633C /* BRPickerView */,
+				CFBEDE9FA448848813A74EB54D4505A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1BAFBEC62F7451E004303302A4696424 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C7CF4DA95C4BC73B153A98FD9DFF7 /* Pods-BRPickerViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		694122C8E5A3FEB3D00598730AFA945C /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9EC435CC693CC7C6030287B0CDC3D30E /* BRAddressModel.h */,
+				1537B34CFBAA08AE6D080BA827A23E59 /* BRAddressModel.m */,
+				180D8ED788A325E2B9B656ED4F480243 /* BRAddressPickerView.h */,
+				049F53C8937CB99AA8CDE7B2D2849995 /* BRAddressPickerView.m */,
+			);
+			name = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		7162C055088096C33CA964930F97633C /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				77801FD7ED5469F2349C381EAACB7BD0 /* BRPickerView.h */,
+				694122C8E5A3FEB3D00598730AFA945C /* AddressPickerView */,
+				DCF76543D67FBD36A871CDAEC6F39735 /* Base */,
+				087C9153CF9165EFE33E98064027817F /* DatePickerView */,
+				86FD716C9FB82B0B8922205FF220CA7F /* StringPickerView */,
+				923B99824310DA4DFB9FDCE1B38CBAEF /* Support Files */,
+			);
+			name = BRPickerView;
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		86FD716C9FB82B0B8922205FF220CA7F /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				AB590597B9C2B8977EB242A5F893D06F /* BRResultModel.h */,
+				6DC18B46BBAD288685D37201F5FFE360 /* BRResultModel.m */,
+				D6049EE00832C56FB3A5C9D79DD034BE /* BRStringPickerView.h */,
+				7F2A4E7937C23BEB784C1E79311F7A00 /* BRStringPickerView.m */,
+			);
+			name = StringPickerView;
+			sourceTree = "<group>";
+		};
+		923B99824310DA4DFB9FDCE1B38CBAEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CE39B2121060FAA2F56214B133F073 /* BRPickerView.modulemap */,
+				0BE3C612B86E83575DDDCD03FE9025EB /* BRPickerView-dummy.m */,
+				ACB960E31F0A7EED1F39251F38B1C05F /* BRPickerView-Info.plist */,
+				8E4F2FD4FC42620B1B5ED3C83E930D12 /* BRPickerView-prefix.pch */,
+				7280857A5056ED8FA0ACE5CEF329674B /* BRPickerView-umbrella.h */,
+				145CA07A7DCF5FA689ABE4CB23B3F11A /* BRPickerView.debug.xcconfig */,
+				D9A1C6012E8DAD84EF077037380F39DC /* BRPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRPickerView";
+			sourceTree = "<group>";
+		};
+		A1CF6A84844965BE12A059021E250A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				1451020FD39EDFD8D1832943FF76F2C6 /* Pods_BRPickerViewDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B81FA80870A3A640A08CE14308216A3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E197EC26C5152D5F179DC863D785081 /* Masonry.modulemap */,
+				C03AF10F15403DCE7971A746E513183C /* Masonry-dummy.m */,
+				47400C72C74223B34BA95DCEC9806D44 /* Masonry-Info.plist */,
+				B44F5F774C1E636770251423BB6052F2 /* Masonry-prefix.pch */,
+				E636472472D358A96D44F85870C782C8 /* Masonry-umbrella.h */,
+				509CBC99FECB00B127FB6DA8ADDBF89A /* Masonry.debug.xcconfig */,
+				424062A61039F793EAAF32FB70862669 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				195DADEC175093DBBBEA5BF1D20D2542 /* Pods */,
+				A1CF6A84844965BE12A059021E250A1B /* Products */,
+				1BAFBEC62F7451E004303302A4696424 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBEDE9FA448848813A74EB54D4505A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				07D602B5F6D84C8CF2FA9FE0C7A0E38A /* MASCompositeConstraint.h */,
+				02DF85A7691D58A82B46BD1DE0CB81E7 /* MASCompositeConstraint.m */,
+				83945DD6816BB0C50422CACC7D665C60 /* MASConstraint.h */,
+				5CA6C4DD9FDF66481E85E3B28EE60F22 /* MASConstraint.m */,
+				0DBBB7AAF8AB66BCA2179203C2327D1E /* MASConstraint+Private.h */,
+				C4408F90E8594B803E790C81A0444599 /* MASConstraintMaker.h */,
+				A47256BF1738847CDEB86A86796CAEEB /* MASConstraintMaker.m */,
+				EF173B0392DC7D97ABC8789555921F25 /* MASLayoutConstraint.h */,
+				DEEE82A311AA887B1BBF36B135FBFC33 /* MASLayoutConstraint.m */,
+				9579A67B0165627DDBA39A639DC46D8A /* Masonry.h */,
+				381129264DE06E6B17CAFA650F15E465 /* MASUtilities.h */,
+				642BB26EC18DA0E80EEEE81E39B821D4 /* MASViewAttribute.h */,
+				D828AAA0D33FABEA033EB9914828FBC3 /* MASViewAttribute.m */,
+				4BDDCF584946FA5DB4B27A6AEB259A11 /* MASViewConstraint.h */,
+				928DB03CB8FCBAA484D1D4A3C4351BF5 /* MASViewConstraint.m */,
+				E022AFD319BF61051CEBD0FADE6BB2DC /* NSArray+MASAdditions.h */,
+				5AE44B882FCCF8DD0C03A390B9E266CA /* NSArray+MASAdditions.m */,
+				3BC4D7BDEBE13A4724C9BBDB664B3107 /* NSArray+MASShorthandAdditions.h */,
+				78D6D1D202147D9B4B367AB20B41D411 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6468FD3FD1B6E7556C0E3EFE6C2E71DC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2CD75AC8C30EE080888DAA3DC7CFBE00 /* View+MASAdditions.h */,
+				46092F8701CBD96A792CE1613A567CB8 /* View+MASAdditions.m */,
+				CC900846204D83887114EA13423B2760 /* View+MASShorthandAdditions.h */,
+				4CA23E374952D8983DCBE31DAD066333 /* ViewController+MASAdditions.h */,
+				311FA19239C1640F365FA7D01E3E996D /* ViewController+MASAdditions.m */,
+				B81FA80870A3A640A08CE14308216A3E /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DCF76543D67FBD36A871CDAEC6F39735 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				73A3B8350C6E6A8B4BE271411D32E270 /* BRBaseView.h */,
+				4575059B4DB8360A928A53D8FFE2F476 /* BRBaseView.m */,
+				616609B4F7B6B7F2E7587B5A652E3B1D /* BRPickerStyle.h */,
+				80F24BA811AC17D33E488B7F93BD4424 /* BRPickerStyle.m */,
+				C715B736811106600CF3624BC9BB476A /* BRPickerViewMacro.h */,
+				CC65EBBA95CF1DD66CD48C9AAA4AB29E /* NSBundle+BRPickerView.h */,
+				7F0A8104EA6A32070CD2129F94B65414 /* NSBundle+BRPickerView.m */,
+				0A1EE2BE0A8B11C4EA40D593BB14D376 /* Resources */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15D984FF8B2B8ECAC746115CCB8FE4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7460F1259EF200ACD23559CE953EA2 /* BRAddressModel.h in Headers */,
+				D4E4C65B3F8BAE275587138FAAFE5FBE /* BRAddressPickerView.h in Headers */,
+				C631F1EF6FBA8D266AEE5EFD49A1E942 /* BRBaseView.h in Headers */,
+				17F48BB2A2DCD4D2A2358B3C69112CFE /* BRDatePickerView.h in Headers */,
+				A35537A553D0943AD6AF61EC8D90D3E4 /* BRPickerStyle.h in Headers */,
+				E817F9B996DD5ABA159A9F9AB4F6E3B2 /* BRPickerView-umbrella.h in Headers */,
+				3B0BFAF4609966D7ACEE91C68AAFFCA3 /* BRPickerView.h in Headers */,
+				7F9EA75D5AF0E0AC2AE4EAC99F0F67CD /* BRPickerViewMacro.h in Headers */,
+				3108CEA9073153E33051B4E2778A0EAB /* BRResultModel.h in Headers */,
+				FBCE510CB454F42F40C02C3F9901A458 /* BRStringPickerView.h in Headers */,
+				A49A86D0A67372C92DC79034DE3DCC02 /* NSBundle+BRPickerView.h in Headers */,
+				0EA75213960573AE0DDD62CB65F8FCAB /* NSDate+BRPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FD5E188AC61A26AA08930ECC6C404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF7D3BEF31709B286232460D517F9C2 /* Pods-BRPickerViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA0F5941E95A5E13767476DFB8F37D87 /* Pods-BRPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4977442AF7D0B06C7F5B15CB7F743A36 /* Build configuration list for PBXNativeTarget "Pods-BRPickerViewDemo" */;
+			buildPhases = (
+				D79FD5E188AC61A26AA08930ECC6C404 /* Headers */,
+				E005941CCCD5760696970683BCBC6507 /* Sources */,
+				0DB33FC1BC44BCD94A54445E36C6DC31 /* Frameworks */,
+				2785D530B53EAE228EB2D6D108DCED8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907DF4A8331212A4FE4D179FB8C1E6D8 /* PBXTargetDependency */,
+				C2BDE8BD6BF64A1E6B80CC493DDC9BD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BRPickerViewDemo";
+			productName = "Pods-BRPickerViewDemo";
+			productReference = 1451020FD39EDFD8D1832943FF76F2C6 /* Pods_BRPickerViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F511C1E8B091420DFE9DC3CB6CED52FC /* Build configuration list for PBXNativeTarget "BRPickerView" */;
+			buildPhases = (
+				B15D984FF8B2B8ECAC746115CCB8FE4B /* Headers */,
+				B020DCF362B238CFA6F783A4EC1E70B5 /* Sources */,
+				A9E642024F3B176ED5BB81181974693A /* Frameworks */,
+				16F08DCD8E90D638DD0541975756C54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRPickerView;
+			productName = BRPickerView;
+			productReference = 5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1CF6A84844965BE12A059021E250A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				AA0F5941E95A5E13767476DFB8F37D87 /* Pods-BRPickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F08DCD8E90D638DD0541975756C54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347A494D00D1062162CC1C26232FC57 /* BRPickerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2785D530B53EAE228EB2D6D108DCED8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B020DCF362B238CFA6F783A4EC1E70B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6ABF84DA7F8649565A5095B3AE8C18A /* BRAddressModel.m in Sources */,
+				06AA5EF0F0E695690C180C6FC67016E0 /* BRAddressPickerView.m in Sources */,
+				FDF5244CD76C0E3E0F5F89A7BC798EF9 /* BRBaseView.m in Sources */,
+				D7B1D2C23A0F79B746295617C87797E1 /* BRDatePickerView.m in Sources */,
+				94ECFB0CFC1271367D385930EE8360A7 /* BRPickerStyle.m in Sources */,
+				8AC6EB00936C384D1B349D49282014A6 /* BRPickerView-dummy.m in Sources */,
+				023513957F41670DBAB857E1335410DF /* BRResultModel.m in Sources */,
+				C09F46CEAFB528A9030811AD6825F560 /* BRStringPickerView.m in Sources */,
+				A7B654EBB0BB811C4E503DDDB1619C31 /* NSBundle+BRPickerView.m in Sources */,
+				9FCD2184EF56C66AB85422CB533CE36B /* NSDate+BRPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005941CCCD5760696970683BCBC6507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0E4A39B85CBF24691E5D9B2B9DC177 /* Pods-BRPickerViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907DF4A8331212A4FE4D179FB8C1E6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRPickerView;
+			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
+			targetProxy = 32C692F9A778555DA975FB0EE4BAE888 /* PBXContainerItemProxy */;
+		};
+		C2BDE8BD6BF64A1E6B80CC493DDC9BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = CD5E24570354FBDEAB66C7335A42CF86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		784946CACE73B0F816106F7C051E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7048D977E8F932DA4422EF0E25831760 /* Pods-BRPickerViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRPickerViewDemo/Pods-BRPickerViewDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRPickerViewDemo/Pods-BRPickerViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		933C252AC1697174177192BE69B419F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509CBC99FECB00B127FB6DA8ADDBF89A /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C88DE82DA06EE3391FB51628653837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C3FB12AAF2493FED9597F5563CBB39 /* Pods-BRPickerViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRPickerViewDemo/Pods-BRPickerViewDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRPickerViewDemo/Pods-BRPickerViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FA24ABFD4A39AFCD59C4B8A427F608E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145CA07A7DCF5FA689ABE4CB23B3F11A /* BRPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1F20CA5AF74551DBEC539096B44760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424062A61039F793EAAF32FB70862669 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF9CF5F2E98754005ABE7814CF016647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A1C6012E8DAD84EF077037380F39DC /* BRPickerView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4977442AF7D0B06C7F5B15CB7F743A36 /* Build configuration list for PBXNativeTarget "Pods-BRPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C88DE82DA06EE3391FB51628653837C /* Debug */,
+				784946CACE73B0F816106F7C051E5B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933C252AC1697174177192BE69B419F9 /* Debug */,
+				D1F20CA5AF74551DBEC539096B44760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F511C1E8B091420DFE9DC3CB6CED52FC /* Build configuration list for PBXNativeTarget "BRPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA24ABFD4A39AFCD59C4B8A427F608E /* Debug */,
+				FF9CF5F2E98754005ABE7814CF016647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

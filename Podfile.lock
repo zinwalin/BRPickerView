@@ -1,0 +1,31 @@
+PODS:
+  - BRPickerView (2.6.0):
+    - BRPickerView/AddressPickerView (= 2.6.0)
+    - BRPickerView/Base (= 2.6.0)
+    - BRPickerView/DatePickerView (= 2.6.0)
+    - BRPickerView/StringPickerView (= 2.6.0)
+  - BRPickerView/AddressPickerView (2.6.0):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.6.0)
+  - BRPickerView/DatePickerView (2.6.0):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.6.0):
+    - BRPickerView/Base
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BRPickerView
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+    - Masonry
+
+SPEC CHECKSUMS:
+  BRPickerView: 3c7bb7ccaefec74ba0ef8d2c771b9be769f5c81b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 24b8a318f65c753d2574e5f8be9efd991b2cb0c1
+
+COCOAPODS: 1.9.1

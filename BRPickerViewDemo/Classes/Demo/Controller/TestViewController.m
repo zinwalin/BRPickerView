@@ -7,12 +7,13 @@
 //
 
 #import "TestViewController.h"
-#import "BRPickerView.h"
+#import <BRPickerView/BRPickerView.h>
 #import "BRInfoCell.h"
 #import "BRInfoModel.h"
 #import "UIImage+Color.h"
 #import "UIColor+BRAdd.h"
 #import "Test2ViewController.h"
+#import <Masonry.h>
 
 #define kThemeColor BR_RGB_HEX(0x2e70c2, 1.0f)
 
@@ -605,9 +606,8 @@ typedef NS_ENUM(NSInteger, BRTimeType) {
         [_footerView addSubview:endTimeLineView];
         self.endTimeLineView = endTimeLineView;
         
-        
         // 3.创建选择器容器视图
-        UIView *containerView = [[UIView alloc]initWithFrame:CGRectMake(30, 170, _footerView.frame.size.width - 60, 200)];
+        UIView *containerView = [[UIView alloc]init];
         if (@available(iOS 13.0, *)) {
             containerView.backgroundColor = [UIColor secondarySystemBackgroundColor];
         } else {
@@ -615,8 +615,13 @@ typedef NS_ENUM(NSInteger, BRTimeType) {
         }
         containerView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         [_footerView addSubview:containerView];
+        [containerView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(30);
+            make.right.mas_equalTo(-30);
+            make.top.mas_equalTo(170);
+            make.height.mas_equalTo(200);
+        }];
         
-    
         // 4.创建日期选择器
         BRDatePickerView *datePickerView = [[BRDatePickerView alloc]init];
         datePickerView.pickerMode = BRDatePickerModeYMDH;
