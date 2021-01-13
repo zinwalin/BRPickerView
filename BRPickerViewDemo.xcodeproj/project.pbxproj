@@ -323,6 +323,12 @@
 				Base,
 				"zh-Hans",
 				"zh-Hant",
+				"zh-HK",
+				fr,
+				de,
+				it,
+				ko,
+				es,
 			);
 			mainGroup = C5ACE4CD1F3D58BD0069978B;
 			productRefGroup = C5ACE4D71F3D58BD0069978B /* Products */;
