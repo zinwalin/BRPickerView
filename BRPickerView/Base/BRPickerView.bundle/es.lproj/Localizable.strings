@@ -1,0 +1,32 @@
+/*
+  Localizable.strings
+  BRPickerViewDemo
+
+  Created by renbo on 2019/10/30.
+  Copyright © 2019 irenb. All rights reserved.
+*/
+
+"确定" = "Okay";
+"取消" = "Cancelar";
+"完成" = "Hecho";
+
+"年" = " ";
+"月" = " ";
+"日" = " ";
+"时" = " ";
+"分" = " ";
+"秒" = " ";
+
+"上午" = "AM";
+"下午" = "PM";
+
+"至今" = " Ahora";
+"今天" = " Hoy";
+
+"周一" = " lun";
+"周二" = " mar";
+"周三" = " mié";
+"周四" = " jue";
+"周五" = " vie";
+"周六" = " sáb";
+"周日" = " dom";

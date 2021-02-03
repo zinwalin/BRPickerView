@@ -65,8 +65,16 @@ BRSYNTH_DUMMY_CLASS(NSBundle_BRPickerView)
             } else { // zh-Hant、zh-HK、zh-TW
                 language = @"zh-Hant"; // 繁體中文
             }
-        } else {
-            language = @"en";
+        } else if ([language hasPrefix:@"de"]) {
+            language = @"de";
+        } else if ([language hasPrefix:@"es"]) {
+            language = @"es";
+        } else if ([language hasPrefix:@"fr"]) {
+            language = @"fr";
+        } else if ([language hasPrefix:@"it"]) {
+            language = @"it";
+        } else if ([language hasPrefix:@"ko"]) {
+            language = @"ko";
         }
         
         // 从 BRPickerView.bundle 中查找资源

@@ -121,7 +121,7 @@
 
 - (CGRect)cancelBtnFrame {
     if (CGRectEqualToRect(_cancelBtnFrame, CGRectZero) || _cancelBtnFrame.size.height == 0) {
-        _cancelBtnFrame = CGRectMake(5, 8, 60, 28);
+        _cancelBtnFrame = CGRectMake(5, 8, 70, 28);
     }
     return _cancelBtnFrame;
 }
@@ -192,7 +192,7 @@
 
 - (CGRect)doneBtnFrame {
     if (CGRectEqualToRect(_doneBtnFrame, CGRectZero) || _doneBtnFrame.size.height == 0) {
-        _doneBtnFrame = CGRectMake(BRGetKeyWindow().bounds.size.width - 60 - 5, 8, 60, 28);
+        _doneBtnFrame = CGRectMake(BRGetKeyWindow().bounds.size.width - 70 - 5, 8, 70, 28);
     }
     return _doneBtnFrame;
 }
@@ -320,7 +320,7 @@
         customStyle.titleLabelFrame = CGRectMake(20, 4, 100, 40);
         customStyle.doneTextColor = doneTextColor;
         customStyle.doneTextFont = [UIFont boldSystemFontOfSize:18.0f];
-        customStyle.doneBtnFrame = CGRectMake(BRGetKeyWindow().bounds.size.width - 60, 4, 60, 40);
+        customStyle.doneBtnFrame = CGRectMake(BRGetKeyWindow().bounds.size.width - 70, 4, 70, 40);
         customStyle.doneBtnTitle = [NSBundle br_localizedStringForKey:@"完成" language:customStyle.language];
         customStyle.selectRowTextColor = doneTextColor;
         customStyle.selectRowTextFont = [UIFont boldSystemFontOfSize:20.0f];
